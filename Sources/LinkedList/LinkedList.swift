@@ -18,4 +18,11 @@ open class LinkedList<T> {
     open internal(set) var head: Node<T>?
     /// 尾节点
     open internal(set) var tail: Node<T>?
+    
+    /**
+     初始化
+     */
+    public init() {
+        
+    }
 }
